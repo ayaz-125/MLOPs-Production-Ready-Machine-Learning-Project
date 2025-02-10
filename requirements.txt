@@ -1,28 +1,29 @@
 # *************************STEP-2*********************
 # Set up the requirement file in ( with different library which we will use in the project)
-ipykernel
-pandas
-numpy
-matplotlib
-plotly
-seaborn 
-scipy
-scikit-learn
-imblearn
-xgboost
-catboost
-pymongo  #This is for mongoDB connection
-from_root
-evidently==0.2.8
-dill
-pyYAML
-neuro_mf
-boto3
-mypy-boto3-s3
-botocore
-fastapi
-uvicorn
-jinja2
-python-multipart
--e .
 
+
+ipykernel           # Required for running Jupyter Notebook  
+pandas             # For data manipulation and analysis  
+numpy              # For numerical computations  
+matplotlib         # For data visualization  
+plotly             # For interactive visualizations  
+seaborn            # For statistical data visualization  
+scipy              # For scientific computing and optimization  
+scikit-learn       # For machine learning models and preprocessing  
+imblearn           # For handling imbalanced datasets  
+xgboost            # For optimized gradient boosting models  
+catboost           # For high-performance gradient boosting models  
+pymongo            # For MongoDB database connection  
+from_root          # For finding the project root directory  
+evidently==0.2.8   # For ML model monitoring and evaluation  
+dill               # For object serialization and deserialization  
+pyYAML             # For reading and writing YAML configuration files  
+neuro_mf           # For hyperparameter tuning (Neuroevolution-based ML framework)  
+boto3              # For AWS services interaction  
+mypy-boto3-s3      # For type hints with AWS S3  
+botocore           # For AWS service low-level configurations  
+fastapi            # For building fast web APIs  
+uvicorn            # For running FastAPI applications  
+jinja2             # For template rendering in web applications  
+python-multipart   # For handling multipart file uploads in FastAPI  
+-e .               # Installs the project as an editable package using setup.py  

@@ -1,3 +1,28 @@
 # *************************STEP-2*********************
 # Set up the requirement file in ( with different library which we will use in the project)
+ipykernel
+pandas
+numpy
+matplotlib
+plotly
+seaborn 
+scipy
+scikit-learn
+imblearn
+xgboost
+catboost
+pymongo  #This is for mongoDB connection
+from_root
+evidently==0.2.8
+dill
+pyYAML
+neuro_mf
+boto3
+mypy-boto3-s3
+botocore
+fastapi
+uvicorn
+jinja2
+python-multipart
+-e .
 
